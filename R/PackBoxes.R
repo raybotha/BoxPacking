@@ -60,7 +60,7 @@ PackBoxes <- function (boxes,
 
                 # get containers EMS
                 con_EMS <- packing_solution[[container_ind]][[1]]@ems  # a list
-                if (length(ems_list) == 0)
+                if (length(con_EMS) == 0)
                   {break;
                   }
                 # prioritize container's EMS
